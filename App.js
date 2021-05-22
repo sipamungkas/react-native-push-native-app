@@ -30,17 +30,14 @@ function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>
-        Example app react-native-push-notification
-      </Text>
-      <View style={styles.spacer}></View>
+      <Text style={styles.title}>Example</Text>
+      <View style={styles.spacer} />
       <TextInput
         style={styles.textField}
         value={registerToken}
         placeholder="Register token"
       />
-      <View style={styles.spacer}></View>
-
+      <View style={styles.spacer} />
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
@@ -90,6 +87,7 @@ function App() {
         }}>
         <Text>Check Permission</Text>
       </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
@@ -104,6 +102,7 @@ function App() {
         }}>
         <Text>Abandon Permissions</Text>
       </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
@@ -118,6 +117,7 @@ function App() {
         }}>
         <Text>Console.Log Delivered Notifications</Text>
       </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.button}
         onPress={() => {
@@ -132,12 +132,10 @@ function App() {
         }}>
         <Text>popInitialNotification</Text>
       </TouchableOpacity>
+      <View style={styles.spacer} />
+      {fcmRegistered !== '' && <Text> FCM Configured !</Text>}
 
-      <View style={styles.spacer}></View>
-
-      {fcmRegistered && <Text>FCM Configured !</Text>}
-
-      <View style={styles.spacer}></View>
+      <View style={styles.spacer} />
     </View>
   );
 }
