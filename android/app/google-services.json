@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608384152651",
+    "project_id": "push-notif-dummy-c9d9d",
+    "storage_bucket": "push-notif-dummy-c9d9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608384152651:android:05810491080b4bcb0789ce",
+        "android_client_info": {
+          "package_name": "com.pushnotifapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608384152651-aq0b3op0qn26l2ufn5oig9dpuormsj5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8MkY1atqJZlaCvRxaeUhqJg7_gutMKY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608384152651-aq0b3op0qn26l2ufn5oig9dpuormsj5e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
